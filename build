@@ -1,9 +1,0 @@
-delete cars cars.o drawvectors.o drawvectorsbuffer.o
-phxass m=3 c2p1x1_6_c5_030.s to c2p1x1_6b.o
-phxass m=3 drawvectors.s to drawvectors.o
-phxass m=3 drawvectorsbuffer.s to drawvectorsbuffer.o
-phxass m=3 calculateObject.s to calculateObject.o
-;phxass m=3 drawtriangles256.s to drawtriangles256.o
-;phxass m=3 bucle2.s to bucle2.o
-;phxass m=3 ptplayer.asm to ptplayer.o
-smake
